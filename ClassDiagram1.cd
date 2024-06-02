@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="AudioManager">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQACAAAAAAAAAAAAAAAAAIAAAAAAgAAQAAAAA=</HashCode>
+      <FileName>Assets\AudioManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EndLevel">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAACAAAAAAAAAAIAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\EndLevel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameManager">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICYBEACIGAQQgggFAAAoAAQIAEAwAqBYAAAAAAAAFA=</HashCode>
+      <FileName>Assets\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelEnter">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQgABAACCAAAAAAAAAAAAAAAGACAAQAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\LevelEnter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sudoku">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAIAAAAAAIAMAAIGAoAAAAAAAAAgAAAAAMQ=</HashCode>
+      <FileName>Assets\Sudoku.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SudokuCell">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAACACECAAAAECAAAAAAAAACAAAgAAAAAAAAA=</HashCode>
+      <FileName>Assets\SudokuCell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.MonoBehaviour">
+    <Position X="4.5" Y="9.25" Width="3" />
+    <TypeIdentifier />
+  </Class>
+  <Struct Name="niveles">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Sudoku.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
