@@ -21,7 +21,7 @@ public class SudokuCell : MonoBehaviour
         correctNumber = GameManager.Instance.numSelect;
         if (!GameManager.Instance.hard)
         {
-            temp = GameManager.Instance.sud.ValidateSudoku();
+            temp = GameManager.Instance.sud.validateSudoku();
             if (temp)
             {
                 imgElement.sprite = img[correctNumber];
@@ -39,7 +39,7 @@ public class SudokuCell : MonoBehaviour
         else
         {
             imgElement.sprite = img[correctNumber];
-            temp = GameManager.Instance.sud.ValidateSudoku();
+            temp = GameManager.Instance.sud.validateSudoku();
             GameManager.Instance.audioManager.soundStart(temp);
             GameManager.Instance.checkEndGame();
         }

@@ -35,6 +35,7 @@ public class GameManager : MonoBehaviour
     public Sprite soundOn;
     public Sprite SoundOff;
     public AudioSource musicSound;
+    internal static object instance;
 
     //instanciamos el singleton
     public void Awake()
@@ -65,18 +66,34 @@ public class GameManager : MonoBehaviour
     public void endLevel()
     {
         UIEndLevel.SetActive(true);
+        UIEndLevel.SetActive(true);
         if (livesLevel < 0)
             livesLevel = 1;
-        if(levelsScore[level] < livesLevel)
-            levelsScore[level] = livesLevel;
-        win[level + 1] = true;
+        if (hard)
+        {
+            if (levelsScoreHard[level] < livesLevel)
+                levelsScoreHard[level] = livesLevel;
+            winHard[level + 1] = true;
+        }
+        else
+        {
+            if (levelsScore[level] < livesLevel)
+                levelsScore[level] = livesLevel;
+            win[level + 1] = true;
+        }
         end.setEnd();
+        
         SaveData();
     }
     //Comprobamos si se completo el nivel en facil
     public void checkEndGame()
     {
         if (!hard)
+        {
+            if (sud.AllCellsFilled())
+                endLevel();
+        }
+        else
         {
             if (sud.AllCellsFilled())
                 endLevel();
